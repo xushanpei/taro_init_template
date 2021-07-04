@@ -1,0 +1,55 @@
+.userInfo {
+  display: flex;
+  justify-content: start;
+  height: 120px;
+  padding: 20px 30px;
+  padding-bottom: 40px;
+  background: #fff;
+  .avater {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+  }
+  .username {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    .username_title {
+      margin-top: 16px;
+      color: #666666;
+      font-size: 32px;
+    }
+    .username_phone {
+      font-size: 24px;
+      color: #999999;
+    }
+  }
+}
+.logOut {
+  // padding: 40px 15px;
+  margin-top: 80px;
+  background: #fff;
+  padding: 0 30px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 32px;
+  color: #333333;
+}
+page {
+  background: #f9f9f9;
+}
+.at-modal__content {
+  min-height: 90px;
+  max-height: 840rpx;
+  padding-left: 40px;
+}
+
+
+// debug
+.debug{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}

@@ -1,0 +1,41 @@
+.submit_page{
+    .submit_page_status{
+        text-align: center;
+        color: #222222;
+        font-weight: 600;
+        .status_img{
+            width: 108px;
+            height: 106px;
+            margin-top: 94px;
+            margin-bottom: 42px;
+        }
+    }
+    .setup{
+        height: 216px;
+        background: url(../../assets/images/loading.png) no-repeat;
+        background-size:24px 150px;
+        background-position-x: 40px;
+        background-position-y: 10px;
+        margin-top: 53px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .setup_container{
+            margin-left: 84px;
+            font-size: 28px;
+            .title{
+                color: #000;
+                margin-bottom: 10px;
+            }
+            .subTitle{
+                color: #888888;
+                font-size: 24px;
+            }
+        }
+
+    }
+    .success_btn{
+        padding: 0 40px;
+        margin-top: 106px;
+    }
+}

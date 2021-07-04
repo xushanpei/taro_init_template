@@ -1,0 +1,50 @@
+.homePage {
+  .test-h {
+    height: 188px !important;
+  }
+  .login_bg_color{
+    height: 20px;
+    width: 100%;
+    background-color: #F9F9F9;
+  }
+  .open_bill {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px;
+      view{
+        width: 328px;
+        height: 154px;
+        text-align: center;
+        border-radius: 10px;
+        color: #4786F7;
+        line-height: 154px;
+      }
+      .open_bill_right{
+          // background: #E9F2FF;
+          background: url(../../assets/images/open1.png) no-repeat center;
+          background-size: 100%;
+      }
+      .open_bill_left{
+        // background: #F2F2FF;
+        background: url(../../assets/images/open2.png) no-repeat center;
+        background-size: 100%;
+
+    }
+  }
+  .atList_content{
+      padding: 0 20px;
+      .item-extra__info{
+        max-width: 2000px;
+        font-size: 24px !important;
+        position: relative;
+        left: -40px;
+        top: -4px
+    }
+  }
+  .index_line{
+    height: 1Px;
+    background: #F2F2F2;
+    width: 690px;
+    margin: 0 auto
+  }
+}

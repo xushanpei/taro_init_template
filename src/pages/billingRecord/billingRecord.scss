@@ -1,0 +1,29 @@
+.at-tabs__item-underline{
+    width: 80px;
+    height: 2Px;
+    margin: 0 auto;
+    left: calc(50% - 40px);
+}
+.at-tabs__item{
+    font-weight: 600;
+}
+.taro3table_title {
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+.taro3table_row{
+    height: 20px !important;
+    min-height: 20px;
+    max-height: 20px;
+}
+.taro3table_col {
+    height: 20px !important;
+    min-height: 20px;
+    max-height: 20px;
+}
+.pagination{
+    margin-top: 30px;
+    .at-button{
+        border: none !important;
+    }
+}

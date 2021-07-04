@@ -1,0 +1,39 @@
+.taro_table {
+  width: 100%;
+  .taro_table_header {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 80px;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    background: #f7f8f9;
+    .taro_table_header_item {
+      box-sizing: border-box;
+      border-right: 1Px solid #e5e5e5;
+      padding: 0 16px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+  .taro_table_content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    box-sizing: border-box;
+    .taro_table_content_item {
+      line-height: 70px;
+      font-size: 24px;
+      view {
+        padding: 0 16px;
+        border-top: 1Px solid #e5e5e5;
+        border-right: 1Px solid #e5e5e5;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+  }
+}
